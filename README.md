@@ -62,6 +62,8 @@ Para el caso de dos secuencias de n y m elementos, el tiempo de ejecución para 
 Se realizaron pruebas en el DCA para establecer tanto el speedup como la eficiencia del programa. Podemos apreciar que se tiene un tiempo máximo de 73 segundos al ejecutarse de manera serial y uno minimo de 7 segundos, con 24 núcleos.
 ![](Imagenes/Speedup.png)
 
+De acuerdo al diagrama de dispersión  de speedup vs núcleos, podemos observar que la eficiencia del programa se va reduciendo a medida que aumentan los núcleos.
+
 **4. Ejecución**
 ```
 python comparator.py
