@@ -47,9 +47,9 @@ Ademas de esto tambien existen elementos debilmente acoplados cuando se itera en
 * Cada proceso inicializa multiples hilos a la vez para poder comparar contra todos los parrafos del texto 2 en paralelo.
 * Al finalizar toda la comparacion contra el texto 2, el proceso se sincroniza con los demas a traves del paso de mensajes para poder enviar sus arreglo de porcentajes.
 
+![secuencial](Imagenes/MPI.png)
+
 ## Referencias
 
 * [Tutorial LCS](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/)
 * [Articulo original LCS](http://xmailserver.org/diff2.pdf)
-
-![secuencial](Imagenes/MPI.png)
