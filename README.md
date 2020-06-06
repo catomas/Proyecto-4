@@ -4,6 +4,7 @@
  
  * **Mateo Ramirez Hernandez**
  * **Juan Camilo Echeverri Salazar**
+ * **Santiago Tello**
 
 **1. Propuesta**
 
@@ -64,9 +65,12 @@ La salida del codigo nos mostrara un indice, el numero de coincidencias y el num
 
 * Ejecutando el codigo con un texto con 5000 lineas y el otro texto con 400 lineas el resultado es el siguiente:
 
-
+![](Imagenes/Anotaci%C3%B3n%202020-06-05%20232416.png)
 
 * Tiempo de ejecución:
+
+![](Imagenes/Anotaci%C3%B3n%202020-06-05%20232525.png)
+
 ## Referencias
 
 * [Tutorial LCS](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/)
