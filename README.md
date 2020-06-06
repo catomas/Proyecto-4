@@ -21,7 +21,7 @@ Debido a que cada texto es un arreglo de parrafos, el indice de cada parrafo del
 
 **2.1 Paralelizacion**
 
-Identificamos la oportunidad de optimizar el rendimineto de este algoritmo a traves de la parelelizacion, debido a sus componentes fuertemente acoplados a la hora de comparar un parrafo del texto 1 contra todos los del texto 2 se utilizara OpenMP debido a que cada parrafo del texto 2 que se compare contra el parrafo del texto 1 no depende de la comparacion obtenida en anteriores iteraciones, sin embargo existe un espacio de memoria compartida el cual es el arreglo donde se almacena el porcentaje de similitud.
+Identificamos la oportunidad de optimizar el rendimiento de este algoritmo a traves de la paralelización, debido a sus componentes fuertemente acoplados a la hora de comparar un parrafo del texto 1 contra todos los del texto 2 se utilizara OpenMP debido a que cada parrafo del texto 2 que se compare contra el parrafo del texto 1 no depende de la comparacion obtenida en anteriores iteraciones, sin embargo existe un espacio de memoria compartida el cual es el arreglo donde se almacena el porcentaje de similitud.
 
 Ademas de esto tambien existen elementos debilmente acoplados cuando se itera entre parrafos del texto 1, ya que estos son procesos completamente independientes entre ellos y no tiene una memoria compartida, sin emabargo es necesaria su sincronizacion a traves del paso de mensajes para poder analizar los resultados de cada parrafo como un conjunto que conforma el texto y poder tener el porcentaje de similitud total entre ambos textos.
 
