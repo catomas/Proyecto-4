@@ -54,7 +54,12 @@ Ademas de esto tambien existen elementos debilmente acoplados cuando se itera en
 
 Lsc Algoritm, se trata de encontrar una subsecuencia  más larga que es común en un conjunto de secuencias (Aunque en la mayor parte solamente se toman dos secuencias). Es usado ampliamente para los sistemas de control de revisión como Git para reconciliar múltiples cambios sobre archivos controlados de revisión.
 
-Para el caso de dos secuencias de n y m elementos, el tiempo de ejecución para la programación es de O(n × m
+Para el caso de dos secuencias de n y m elementos, el tiempo de ejecución para la programación es de O(n × m)
+
+**3.1 Analisis MP**
+![](Imagenes/TiempoNucleos.png)
+
+Se realizaron pruebas en el DCA para establecer tanto el speedup como la eficiencia del programa. Podemos apreciar que se tiene un tiempo máximo de 73 segundos al ejecutarse de manera serial y uno minimo de 7 segundos, con 24 núcleos.
 
 **4. Ejecución**
 ```
