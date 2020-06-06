@@ -49,6 +49,22 @@ Ademas de esto tambien existen elementos debilmente acoplados cuando se itera en
 
 ![secuencial](Imagenes/MPI.png)
 
+** 3. Analísis 
+Lsc Algoritm, se trata de encontrar una subsecuencia  más larga que es común en un conjunto de secuencias (Aunque en la mayor parte solamente se toman dos secuencias). Es usado ampliamente para los sistemas de control de revisión como Git para reconciliar múltiples cambios sobre archivos controlados de revisión.
+
+Para el caso de dos secuencias de n y m elementos, el tiempo de ejecución para la programación es de O(n × m)
+*** 4. Ejecución
+```
+python comparator.py
+```
+
+La salida del codigo nos mostrara un indice, el numero de coincidencias y el numero de diferencias.
+
+* Ejecutando el codigo con un texto con 5000 lineas y el otro texto con 400 lineas el resultado es el siguiente:
+
+
+
+* Tiempo de ejecución:
 ## Referencias
 
 * [Tutorial LCS](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/)
