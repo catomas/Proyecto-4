@@ -4,6 +4,7 @@
  
  * **Mateo Ramirez Hernandez**
  * **Juan Camilo Echeverri Salazar**
+ * **Santiago Tello Ruiz**
 
 **1. Propuesta**
 
