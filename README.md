@@ -1,4 +1,9 @@
 ﻿# Proyecto-4
+ 
+ **0. Autores**
+ 
+ * **Mateo Ramirez Hernandez**
+ * **Juan Camilo Echeverri Salazar**
 
 **1. Propuesta**
 
