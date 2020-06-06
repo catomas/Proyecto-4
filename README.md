@@ -57,9 +57,10 @@ Lsc Algoritm, se trata de encontrar una subsecuencia  más larga que es común e
 Para el caso de dos secuencias de n y m elementos, el tiempo de ejecución para la programación es de O(n × m)
 
 **3.1 Analisis MP**
-![](Imagenes/TiempoNucleos.png)
+![](Imagenes/TiempoNucleos2.png)
 
 Se realizaron pruebas en el DCA para establecer tanto el speedup como la eficiencia del programa. Podemos apreciar que se tiene un tiempo máximo de 73 segundos al ejecutarse de manera serial y uno minimo de 7 segundos, con 24 núcleos.
+![](Imagenes/Speedup.png)
 
 **4. Ejecución**
 ```
