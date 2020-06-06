@@ -56,7 +56,7 @@ Lsc Algoritm, se trata de encontrar una subsecuencia  más larga que es común e
 
 Para el caso de dos secuencias de n y m elementos, el tiempo de ejecución para la programación es de O(n × m
 
-***4. Ejecución**
+**4. Ejecución**
 ```
 python comparator.py
 ```
