@@ -87,6 +87,7 @@ Inicialmente se testeo el código en la máquina local, con 12 procesos.
 
 Luego, se ejecutó el código en el cluster del DCA, con diferentes cantidades de núcleos.
 Inmediatamente notamos una diferencia en el tiempo de ejecución, ya que al ejecutarse con 24 procesos se demoraba 2 segundos más que localmente con 12.
+
 ![](Imagenes/1proceso.png)
 
 ![](Imagenes/2proceso.png)
