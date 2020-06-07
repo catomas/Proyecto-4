@@ -5,13 +5,16 @@ Se expresará un desglose del orden de ejecución de las diferentes tareas que o
 
 1. Se reciben 2 textos como entrada, el primero siendo el texto inicial y el segundo el texto final y se guardan como arreglos.
 2. Se guarda cada párrafo del texto inicial en una lista junto con el texto 2. 
-3. Se realiza la funcion de comparacion de texto en cada uno de los ítems de la lista.
-4. La funcion de comparación almacena la información de similitud de cada párrafo del texto inicial en una lista.
-5. Se retorna el listado de similitudes de cada párrafo de manera ordenada.
+3. Se realiza la funcion de comparacion de texto(compareParagraph).
+4. Se asignan workers que corran la funcion compareParagraph sobre cáda párrafo del texto 1, en cada núcleo de la máquina si es posible, si no, itera por los núcleos disponibles.
+5. La funcion de comparación almacena la información de similitud de cada párrafo del texto inicial en una lista.
+6. Se retorna el listado de similitudes de cada párrafo de manera ordenada.
 
 ## 2. Communication
 
-La tarea 3 y 4 se comunican al intercambiar los datos de la información de similitud de los párrafos. Cada párrafo del texto 1 es independiente, así que no hay data races al momento de almacenar los resultados de cada párrafo.
+La tarea 4 y 5 se comunican al intercambiar los datos de la información de similitud de los párrafos. Cada párrafo del texto 1 es independiente, así que no hay data races al momento de almacenar los resultados de cada párrafo.
+La funcion 3 
+
 
 ## 3. Agglomeration
 WIP
