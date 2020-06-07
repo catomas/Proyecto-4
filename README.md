@@ -79,6 +79,22 @@ La salida del codigo nos mostrara un indice, el numero de coincidencias y el num
 
 ![](Imagenes/Anotaci%C3%B3n%202020-06-05%20232525.png)
 
+**4.1 Ejecución en paralelo**
+
+Se ejecutó el código en el cluster del DCA, con diferentes cantidades de núcleos.
+
+![](Imagenes/1proceso.png)
+
+![](Imagenes/2proceso.png)
+
+![](Imagenes/3proceso.png)
+
+![](Imagenes/4proceso.png)
+
+![](Imagenes/24proceso.png)
+
+
+
 ## Referencias
 
 * [Tutorial LCS](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/)
