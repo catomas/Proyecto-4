@@ -100,7 +100,9 @@ Inmediatamente notamos una diferencia en el tiempo de ejecución, ya que al ejec
 
 
 **5 Sustentaciones en video**
-https://youtu.be/849W1WNmDrA
+
+[Santiago Tello](https://youtu.be/849W1WNmDrA)
+
 ## Referencias
 
 * [Tutorial LCS](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/)
