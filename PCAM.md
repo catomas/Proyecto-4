@@ -18,6 +18,9 @@ La función 3 se comunica con la 4 para establecer la cantidad de workers a impl
 
 
 ## 3. Agglomeration
-WIP
+
+Se pueden integrar las tareas 4 y 5, ya que si no hay data races en el funcionamiento, se puede ir almacenando la información de similitud a medida que se va obteniendo, así no habría que ocupar memoria hasta el final de la ejecución para almacenar los resultados.
+
 ## 4. Mapping
-WIP
+
+Se mapea un proceso de comparación por núcleo de la máquina, así se asegura la mayor eficiencia del algoritmo LCS. Al haber integrado las tareas 4 y 5, se elimina la comunicación que plantearía esperar hasta el final de la ejecución para retornar los datos, al almacenarlos inmediatamente en lugar de retornarlos.
